@@ -1,7 +1,6 @@
 {
   "name": "virtual-online-product-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap-icons": "^1.8.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakeshgodumala/GRakesh-Static-WebApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rakeshgodumala/GRakesh-Static-WebApp/issues"
+  },
+  "homepage": "https://github.com/Rakeshgodumala/GRakesh-Static-WebApp#readme",
+  "description": ""
 }
