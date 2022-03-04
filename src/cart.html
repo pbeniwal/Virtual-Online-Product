@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products-Virtual | Online Product</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"> <img src="images/vlogo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><span class="bi bi-house-door"></span><a href="index.html">&nbsp HOME </a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><span class="bi bi-telephone"></span> <a href="">CONTACT</a></li>
+                    <li><a href="Account.html">ACCOUNT</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px"height="30px">
+            <img src="images/menu.png" class="menu-icon"
+             onclick="menutoggle()">
+        </div>
+    </div>
+
+
+<!-------------cart items details------------>
+<div class="small-cointainer cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quality</th>
+            <th>Subtotal</th>
+        </tr>
+    
+    <tr>
+        <td>
+           <a href="product detail.html"> <div class="cart-info"><img src="images/single product1.jfif"></a>
+                <div>
+                    <p><h3>Nordstrom Sky Blue Shirt</h3></p>
+                    <small>Price: ₹599.00</small>
+                    <br>
+                    <a href="">Remove</a>
+
+                </div>
+
+        </div>    
+     
+        <td><input type="number" value="1"></td>
+        <td> ₹ 599.00</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info"><img src="images/sport.jpeg">
+                <div>
+                    <p> <h3>Sport Shoes</h3></p>   
+                    <small>Price: ₹299.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                
+                </div>
+
+        </div>    
+     
+        <td><input type="number" value="1"></td>
+        <td> ₹299.00</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info"><img src="images/product1.jpg">
+                <div>
+                    <p> <h3> Men Trend  </h3></p>   
+                    <small>Price: ₹299.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                
+                </div>
+
+        </div>    
+     
+        <td><input type="number" value="1"></td>
+        <td>  ₹ 299.00</td>
+    </tr>
+    
+</table>
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td> ₹ 1197
+            </td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td> ₹ 3
+            </td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>₹ 1200 </td>
+        </tr>
+        
+    </table>
+</div>
+</div>
+
+<!-------footer-------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Andriod and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html"> <img src="images/vlogo.png"></a>
+                <p>Our Purpose is to Sustainably Make the Pleasure and Benifits of Sports Accessible to more</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Help</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Customer-Care</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><span class="bi bi-linkedin"></span>&nbsp linkedin</li>                
+                    <li><span class="bi bi-facebook"></span>&nbsp Facebook</li>
+                    <li><span class="bi bi-twitter"></span>&nbsp Twitter</li>
+                    <li> <span class="bi bi-instagram"></span> &nbsp Instagram</li>
+                    <li> <span class="bi bi-whatsapp"></span> &nbsp Whats-App</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+       <p class="Condition">Condition of Use:<span>Privacy Policy</span></p>
+    </div>
+</div>
+
+<!------------js for toggle menu------------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
